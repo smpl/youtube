@@ -1,0 +1,85 @@
+@startmindmap
+* PHP PDO и работа с базой данных
+** Вступление
+
+** Окружение для проверки теории
+
+** Создания подключения
+*** Составление DSN
+*** Опции
+**** Глобальные
+***** ATTR_ERRMODE например
+**** Относящиеся к драйверу
+
+** PDO способы выполнить запрос
+*** exec
+*** query
+*** prepare
+
+** CREATE TABLE
+** INSERT
+*** query
+*** preapre user data
+*** prepare many records
+
+** UPDATE
+
+** DELETE
+
+** SELECT
+
+** SQL INJECTION!!!
+
+** Подготовленные и простые запросы
+*** Execute
+*** Prepare
+*** Именнованные placeholder (пример)
+*** Неименованные placeholder (пример)
+*** bindParam и bindValue
+
+** PDO эмулирует подготовленные запросы по умолчанию (ATTR_EMULATE_PREPARES)
+
+** query использует механизм подготовленных запросов
+
+** placeholder можно использовать только для значений
+
+** Транзакции
+*** beginTransaction
+*** commit
+*** rollback
+
+** Извлечение данных
+*** Массивы
+**** FETCH_ASSOC
+**** FETCH_NUM
+**** FETCH_BOTH
+**** FETCH_NAMED
+*** Объект
+**** FETCH_CLASS
+**** FETCH_PROPS_LATE
+**** FETCH_INTO
+**** FETCH_OBJ
+*** FETCH_BOUND
+**** Большие объекты (LOB)
+*** fetchColumn
+*** fetchObject
+
+** Буферизированные и небуферезированные
+*** Пример mysql
+*** Пример pgsql
+
+** Сравнение "небуферизированных" и LOB
+
+** Сравнение других способов подключения
+*** PDO vs mysqli_* vs mysql_*
+*** PDO vs pg_*
+
+** Другие способы работы с БД
+*** Query builder
+*** Table row gateway
+*** Active record
+*** Data mapper
+
+** Спасибо за ваше внимание
+
+@endmindmap
