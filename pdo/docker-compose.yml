@@ -1,0 +1,22 @@
+version: "3"
+services:
+  mysql:
+    image: mysql:8
+    ports:
+      - "3306:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: 12345
+      MYSQL_DATABASE: example
+  pgsql:
+    image: postgres:14
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_PASSWORD: 12345
+  app:
+    build:
+      context: ./
+    tty: true
+    working_dir: /app
+    volumes:
+      - ./:/app
