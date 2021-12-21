@@ -29,7 +29,8 @@
 ** Основные операции (CRUD)
 
 *** INSERT
-**** lastInsertI*** Массовая вставка
+**** lastInsertId
+**** Массовая вставка
 *** UPDATE
 *** DELETE
 *** SELECT
@@ -74,5 +75,6 @@
 *** beginTransaction
 *** commit
 *** rollback
+*** ACID
 
 @endmindmap
