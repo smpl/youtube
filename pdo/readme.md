@@ -55,3 +55,28 @@ https://github.com/smpl/youtube/tree/master/pdo примеры кода
 Чат с обсуждениями: https://t.me/dev_ru
 https://www.tinkoff.ru/cf/5c4FFQvrspu
 https://new.donatepay.ru/@kuvshinovee
+
+## [PHP, PDO Подготовленные запросы, EXECUTE vs PREPARE Statement](https://www.youtube.com/watch?v=crDvjTUvdi4)
+
+Что такое PREPARE и EXECUTE Statement в чем отличия подготовленных запросов, как с этим работать с PHP и PDO
+
+00:00 Вступление
+00:24 EXECUTE и PREPARE
+00:50 EXECUTE Statement
+03:08 PREPARE Statement
+07:09 Пример именованные placeholder
+07:53 Пример неименованные placeholder
+08:28 bindParam и bindValue
+12:09 PDO эмулирует подготовленные запросы по умолчанию!!!
+14:20 query использует prepare, а не execute!!!
+15:25 При отключенной эмуляции нельзя сделать выборку по EXECUTE!!!
+16:23 Почему placeholder только для значений
+18:11 Спасибо за внимание 
+
+
+https://github.com/smpl/youtube/tree/master/pdo примеры кода
+Плейлист: https://youtube.com/playlist?list=PL7Nh93imVuXw_wvYPFsbb33f_ZiXkyLO3
+https://www.tinkoff.ru/cf/5c4FFQvrspu
+https://new.donatepay.ru/@kuvshinovee
+Канал с новостями: https://t.me/KuvshinovEvgeniy
+Чат с обсуждениями: https://t.me/dev_ru
